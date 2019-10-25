@@ -31,6 +31,12 @@ Bootstrap Basic Template
 
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}">
 
+    <style>
+        .portfolio-item:hover .thumb-inner h4{
+            margin-top: 5%;
+        }
+    </style>
+
     </head>
     
     <body>
@@ -106,8 +112,8 @@ Bootstrap Basic Template
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6" style="background-color: aliceblue;">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="{{ asset('assets/frontend/') }}" class="rounded" alt=""></figure>
+                                    <div class="col-md-6" style="margin-top: 8.5vw;">
+                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="{{ asset('assets/frontend/images/227538.jpg') }}" class="rounded" alt=""></figure>
                                     </div>
                                 </div>
                             </div>
@@ -184,19 +190,19 @@ Bootstrap Basic Template
                                         <div class="skill-item">
                                             <h6>HTML CSS</h6>
                                             <div class="skill-bar">
-                                                <span>70%</span>
+                                                <span>80%</span>
                                                 <div class="filled-bar"></div>
                                             </div>          
                                         </div>
                                         <div class="skill-item">
-                                            <h6>PSD Design</h6>
+                                            <h6>PHP</h6>
                                             <div class="skill-bar">
-                                                <span>90%</span>
+                                                <span>70%</span>
                                                 <div class="filled-bar-2"></div>
                                             </div>          
                                         </div>
                                         <div class="skill-item">
-                                            <h6>Social Media</h6>
+                                            <h6>Framework</h6>
                                             <div class="skill-bar">
                                                 <span>70%</span>
                                                 <div class="filled-bar"></div>
@@ -205,7 +211,7 @@ Bootstrap Basic Template
                                         <div class="skill-item last-skill">
                                             <h6>Leadership</h6>
                                             <div class="skill-bar">
-                                                <span>90%</span>
+                                                <span>70%</span>
                                                 <div class="filled-bar-2"></div>
                                             </div>          
                                         </div>                   
@@ -230,94 +236,48 @@ Bootstrap Basic Template
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
+                                                <img src="{{ asset('assets/frontend/images/p1.png') }}" alt="">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap CSS templates.</p>
+                                                <h4>ASA</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
+                                                <img src="{{ asset('assets/frontend/images/p2.png') }}" alt="">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap themes.</p>
+                                                <h4>INVENTORY</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
+                                                <img src="{{ asset('assets/frontend/images/p3.png') }}" alt="">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap layouts.</p>
+                                                <h4>Wahana Visi Indonesia</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
+                                                <img src="{{ asset('assets/frontend/images/p4.png') }}" alt="">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
+                                                <h4>SERUNI</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
-                                            </div>
-                                            
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('assets/frontend/images/') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
+                                    {{-- <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
                                                 <img src="{{ asset('assets/frontend/images/') }}" alt="">
@@ -325,10 +285,10 @@ Bootstrap Basic Template
                                             
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -356,6 +316,17 @@ Bootstrap Basic Template
                                                 <div class="testimonial-content">
                                                     <h4>Rampa Praditya</h4>
                                                     <p>"Semangat Kerja Mas!."</p>
+                                                    <span>CEO PraMediaEnginering</span>
+                                                </div>                                           
+                                            </div>
+                                            <div class="testimonial-item">
+                                                <div class="client-row">
+                                                    <img src="{{ asset('assets/frontend/images/dicky.jpg') }}" class="rounded-circle" alt="profile 1">
+                                                </div>
+                                                
+                                                <div class="testimonial-content">
+                                                    <h4>Dicky</h4>
+                                                    <p>"."</p>
                                                     <span>CEO PraMediaEnginering</span>
                                                 </div>                                           
                                             </div>

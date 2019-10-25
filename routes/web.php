@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/aw-admin/admin/180799aku','AdminController@index');
+Route::get('/aw-admin','AdminController@maintenance');
